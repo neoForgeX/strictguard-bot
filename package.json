@@ -1,0 +1,21 @@
+{
+  "name": "my-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "fs-extra": "^11.3.3",
+    "node-schedule": "^2.1.1",
+    "pdfkit": "^0.17.2",
+    "pino": "^10.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7"
+  }
+}
