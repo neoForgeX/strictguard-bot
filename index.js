@@ -13,7 +13,7 @@ fs.ensureDirSync('./media');
 // ⚙️ CONFIGURATION ZONE
 // ==========================================
 
-const DEVELOPER_NUMBER = '27617763264@s.whatsapp.net'; 
+const DEVELOPER_NUMBER = '27812345678@s.whatsapp.net'; 
 const REPORT_TIME = '59 23 * * *'; 
 
 // Spam Flood Settings
