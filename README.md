@@ -5,7 +5,7 @@ An autonomous, AI-powered WhatsApp group moderation bot built to keep communitie
 This repository contains the **v1 Monolithic Architecture**, which runs the WhatsApp WebSocket gateway, the AI processing engine, and a local SQLite database inside a single Docker container.
 
 ## ✨ Key Features
-* **Context-Aware AI Filtering:** Powered by `gemini-1.5-flash-8b`, the bot detects hate speech, severe toxicity, bullying, and scams. It is specifically prompted to recognize and exempt religious texts, literature, and direct quotes.
+* **Context-Aware AI Filtering:** Powered by `gemini-2.5-flash`, the bot detects hate speech, severe toxicity, bullying, and scams. It is specifically prompted to recognize and exempt religious texts, literature, and direct quotes.
 * **The 3-Strike System:** Automatically deletes violating messages, issues public warnings, and permanently bans users upon their third strike.
 * **DM Command Center:** Manage all your groups privately via Direct Messages with the bot.
 * **VIP Immunity:** Protect human admins and trusted members from the automated moderation filters.
@@ -24,8 +24,8 @@ This repository contains the **v1 Monolithic Architecture**, which runs the What
 
 **1. Clone the repository**
 \`\`\`bash
-git clone https://github.com/YourUsername/strictguard-core.git
-cd strictguard-core
+git clone https://github.com/neoforgex/strictguard-bot.git
+cd strictguard-bot
 \`\`\`
 
 **2. Configure Environment Variables**
