@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Sensitive Environment Variables (API Keys)
+.env
+
+# WhatsApp Cryptographic Session Data (CRITICAL!)
+data/
+auth_info_baileys/
+*.json
+
+# Ignore generated PDFs or logs
+*.pdf
+*.log
